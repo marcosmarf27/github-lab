@@ -4,7 +4,9 @@
   "description": "Repositório utilizado para aprender Git e GitHub profissionalmente.",
   "main": "index.js",
   "scripts": {
-    "test": "vitest run"
+    "lint": "eslint .",
+    "test": "vitest run",
+    "build": "node scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,8 @@
   },
   "homepage": "https://github.com/marcosmarf27/github-lab#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
     "vitest": "^4.1.11"
   }
 }
