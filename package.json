@@ -4,7 +4,7 @@
   "description": "Repositório utilizado para aprender Git e GitHub profissionalmente.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/marcosmarf27/github-lab/issues"
   },
-  "homepage": "https://github.com/marcosmarf27/github-lab#readme"
+  "homepage": "https://github.com/marcosmarf27/github-lab#readme",
+  "devDependencies": {
+    "vitest": "^4.1.11"
+  }
 }
