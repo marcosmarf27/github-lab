@@ -1,0 +1,28 @@
+{
+  "name": "github-lab",
+  "version": "1.0.0",
+  "description": "Repositório utilizado para aprender Git e GitHub profissionalmente.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "vitest run",
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosmarf27/github-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/marcosmarf27/github-lab/issues"
+  },
+  "homepage": "https://github.com/marcosmarf27/github-lab#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
+    "vitest": "^4.1.11"
+  }
+}
