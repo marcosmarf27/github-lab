@@ -22,7 +22,7 @@
   "homepage": "https://github.com/marcosmarf27/github-lab#readme",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.9.1",
+    "eslint": "^10.11.0",
     "vitest": "^4.1.11"
   }
 }
